@@ -1,0 +1,73 @@
+body {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-color: #00c8eb;
+  text-align: center;
+  padding: 60px;
+}
+
+.banner h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.banner p {
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: larger;
+  color: gray;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 15px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+main {
+  overflow: auto;
+}
+
+#content {
+  float: left;
+  padding: 20px;
+  width: 75%;
+}
+
+#belajar {
+  box-shadow: 0px 5px 10px 0px #888888;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#bermain {
+  box-shadow: 0px 5px 10px 0px #888888;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+aside {
+  float: right;
+}
+
+footer {
+  float: none;
+}
